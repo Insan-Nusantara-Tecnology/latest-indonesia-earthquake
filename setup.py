@@ -10,7 +10,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="muzadash", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Fikri Muzadi",
     author_email="fikrimuzadi@gmail.com",
     description="This package will get the lates Dashboard Monitoring Indonesia",
