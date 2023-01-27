@@ -74,3 +74,7 @@ def tampilkan_data(result):
     print(f"Koordinat: LS= {result['koordinat']['ls']}, BT= {result['koordinat']['bt']}")
     print(f"Lokasi {result['lokasi']}")
     print(f"Keterangan {result['keterangan']}")
+
+if __name__ == "__main__":
+    result = ekstraski_data()
+    tampilkan_data(result)
