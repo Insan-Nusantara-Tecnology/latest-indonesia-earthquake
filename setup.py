@@ -18,12 +18,17 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Insan-Nusantara-Tecnology/latest-indonesia-earthquake",
     packages=setuptools.find_packages(),
+    install_requires=[
+        'requests',
+	    'beautifulsoup4',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
         "Development Status :: 4 - Beta"
     ],
+
     # package_dir={"": "src"},
     # packages=setuptools.find_packages(where="src"),
     python_requires='>=3.6',
