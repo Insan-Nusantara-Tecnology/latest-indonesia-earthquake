@@ -9,8 +9,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="muzadash", # Replace with your own username
-    version="0.0.2",
+    name="muzadash",  # Replace with your own username
+    version="0.0.4",
     author="Fikri Muzadi",
     author_email="fikrimuzadi@gmail.com",
     description="This package will get the lates Dashboard Monitoring Indonesia",
@@ -20,7 +20,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'requests',
-	    'beautifulsoup4',
+        'beautifulsoup4'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
